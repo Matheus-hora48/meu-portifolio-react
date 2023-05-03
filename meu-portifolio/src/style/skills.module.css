@@ -27,11 +27,14 @@
   max-width: 800px;
   width: 100%;
   margin-top: 30px;
+  align-content: center; /* Adicionando a propriedade align-content */
+
 }
 
 .iconRow img {
   width: 100%;
   height: auto;
+  justify-items: center;
 }
 
 @media screen and (max-width: 768px) {
