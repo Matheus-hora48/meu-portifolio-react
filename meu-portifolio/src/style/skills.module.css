@@ -9,6 +9,7 @@
     padding: 1rem;
     align-items: center;
     width: 100%;
+    max-width: var(--max-width)
   }
   
   .skills h2 {
@@ -19,20 +20,14 @@
   
 
 .iconRow {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
-  grid-gap: 30px;
-  max-width: 800px;
-  width: 100%;
-  margin-top: 30px;
-  align-content: center; /* Adicionando a propriedade align-content */
-
-}
-
-.iconRow img {
-  width: 100%;
-  height: auto;
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  column-gap: 10px;
+  justify-content: center;
+  width: 90%;
+  margin: 10px 0;
+  align-content: center;
 }
 
 @media screen and (max-width: 768px) {

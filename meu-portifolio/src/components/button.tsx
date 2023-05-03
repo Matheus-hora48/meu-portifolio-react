@@ -3,7 +3,7 @@ import { useState } from "react";
 import about from "../style/about.module.css";
 
 const ButtonGroup = () => {
-  const [selectedButton, setSelectedButton] = useState<string | null>(null);
+  const [selectedButton, setSelectedButton] = useState<string | null>("Experiência");
 
   const handleClick = (buttonText: string) => {
     setSelectedButton(buttonText);
