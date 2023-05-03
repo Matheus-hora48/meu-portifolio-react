@@ -3,10 +3,9 @@
   background-color: #4a4458;
   border-radius: 12px;  
   align-items: center;
-  margin: 1rem;
   height: 435px;
   padding: 1rem;
-  width: 40vw;
+  width: 100%;
 }
 
 .project_section__left {

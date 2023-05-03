@@ -11,8 +11,8 @@ import phoneSvg from "../../public/phone.svg";
 import photoPng from "../../public/photo.png";
 import ButtonGroup from "@/components/button";
 import ProjectSection from "@/components/project";
-import ContactSection  from "@/components/contact";
-import SkillsSection  from "@/components/skills";
+import ContactSection from "@/components/contact";
+import SkillsSection from "@/components/skills";
 
 export default function Home() {
   return (
@@ -62,6 +62,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <h1 style={{ padding: "20px" }}>Sobre Mim</h1>
       <section className={about.container}>
         <div className={about.left_box}>
           <div className={about.image_container}>
@@ -147,17 +148,20 @@ export default function Home() {
               </a>
             </div>
           </div>
-        </div>   
+        </div>
         <ButtonGroup />
       </section>
-      <SkillsSection/>
+      <SkillsSection />
+      <h1 style={{ padding: "20px", marginBottom: "20px", marginTop: "60px" }}>
+        Meus projetos
+      </h1>
       <div className={styles.project_list}>
         <ProjectSection
-          title="Projeto 1"
+          title="Quitanda virtual com flutter"
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas.<br>
           O desenvolvimento desse projeto me permitiu aprender e aplicar conceitos importantes de programação em um ambiente real. Adquiri uma compreensão mais profunda de como os diferentes componentes de um aplicativo trabalham juntos e como aplicar práticas recomendadas para criar aplicativos seguros, eficientes e escaláveis. As habilidades adquiridas com a criação deste projeto são valiosas para o avanço da minha carreira de desenvolvedor e podem ser aplicadas em projetos futuros."
           imageSrc={photoPng}
-          repoLink="https://github.com/user/project1"
+          repoLink="https://github.com/Matheus-hora48/loja-flutter"
         />
         <ProjectSection
           title="Projeto 2"
@@ -181,7 +185,7 @@ export default function Home() {
           repoLink="https://github.com/user/project4"
         />
       </div>
-      <ContactSection/>
+      <ContactSection />
     </main>
   );
 }

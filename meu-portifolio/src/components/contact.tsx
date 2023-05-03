@@ -34,7 +34,7 @@ function ContactSection() {
         proposta interessante para mim, sinta-se à vontade para entrar em
         contato pelos canais acima.
       </p>
-      <a href="/public/curriculo/meu_curriculo.pdf" download>
+      <a href="../curriculo/meu_curriculo.pdf" download>
         <button className={styles.contact_section__button}>
           Baixar Currículo
         </button>

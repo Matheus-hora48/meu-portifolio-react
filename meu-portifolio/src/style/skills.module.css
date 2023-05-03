@@ -2,19 +2,17 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    margin: 50px 0;
     background-color: #fff;
     background-color: #4a4458;
     border-radius: 12px;
     display: flex;
-    align-items: center;
-    margin: 1rem;
     padding: 1rem;
-    width: 83vw;
+    align-items: center;
+    width: 100%;
   }
   
   .skills h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 30px;
     justify-content: center;
   }
