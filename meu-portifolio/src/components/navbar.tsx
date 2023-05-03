@@ -8,12 +8,14 @@ const Navbar = () => {
         <h1>Matheus hora</h1>
       </div>
       <div className={styles.navbar__right}>
-        <Link href="/">
-          <span>Sobre Mim</span>
-        </Link>
-        <Link href="/">
-          <span>Projetos</span>
-        </Link>
+        <div>
+          <Link href="/">
+            <span>Sobre Mim</span>
+          </Link>
+          <Link href="/">
+            <span>Projetos</span>
+          </Link>
+        </div>
       </div>
     </nav>
   );

@@ -1,114 +1,156 @@
+/* Estilos padrão para tela grande */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.left_box {
+  border-radius: 12px;
+  padding: 50px;
+  position: relative;
+  min-height: 630px;
+  width: 40vw;
+  margin-right: 40px;
+  background-color: #4A4458;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image_container {
+  position: absolute;
+  top: -50px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 8px solid #4A4458;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.contact p {
+  font-size: 1rem;
+
+  letter-spacing: 0em;
+  text-align: justify;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.links a {
+  margin: 0 10px;
+}
+
+.right_box {
+  background-color: #4A4458;
+  border-radius: 12px;
+  display: flex;
+  height: 630px;
+  width: 40vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  padding: 8px 16px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  background-color: #D0BCFF;
+  color: #1C1B1F;
+  border: none;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #a88beb;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .left_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about .image_container {
+  margin-right: 20px;
+}
+
+.about .contact {
+  width: 100%;
+}
+
+.about .links {
+  display: flex;
+  align-items: center;
+}
+
+.about .links a {
+  margin-right: 10px;
+}
+
+/* Media query para telas menores */
+@media screen and (max-width: 1200px) {
+
+  .image_container{
+    display: none;
   }
-  
-  .left_box {
-    border-radius: 12px;
-    padding: 50px;
-    position: relative;
-    height: 630px;
-    width: 40vw;
-    margin-right: 40px;
-    background-color: #4A4458;
-    display: flex;
+
+}
+
+
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
+  .container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .image_container {
-    position: absolute;
-    top: -50px;
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 8px solid #4A4458;
-    box-shadow: 0px 4px 4px 0px #00000040;
-  }
-  
-  .contact {
-    text-align: center;
-    margin-top: 80px;
   }
 
-  .contact p {
-    font-size: 16px;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: justify;
-
+  .image_container{
+    display: none;
   }
   
-  .links {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .links a {
-    margin: 0 10px;
-  }
-  
+  .left_box,
   .right_box {
-    background-color: #4A4458;
-    border-radius: 12px;
-    display: flex;
-    height: 630px;
-    width: 40vw;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .button {
-    padding: 8px 16px;
-    font-size: 18px;
+    width: 90%;
+    margin-right: 0;
     margin-bottom: 20px;
-    background-color: #D0BCFF;
-    color: #1C1B1F;
-    border: none;
-    font-weight: 600;
-    border-radius: 12px;
-    cursor: pointer;
   }
   
-  .button:hover {
-    background-color: #a88beb;
-  }
-
   .about {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
   }
   
   .about .left_box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    margin-bottom: 20px;
   }
   
   .about .image_container {
-    margin-right: 20px;
+    margin-right: 0;
+    margin-bottom: 20px;
   }
-  
-  .about .contact {
-    width: 100%;
-  }
-  
-  .about .links {
-    display: flex;
-    align-items: center;
-  }
-  
-  .about .links a {
-    margin-right: 10px;
-  }
-
-  
-  
+}

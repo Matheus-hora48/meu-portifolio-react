@@ -1,0 +1,42 @@
+.skills {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    background-color: #fff;
+    background-color: #4a4458;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    width: 83vw;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  
+
+.iconRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  grid-gap: 30px;
+  max-width: 800px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.iconRow img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .iconRow {
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    grid-gap: 20px;
+  }
+}
