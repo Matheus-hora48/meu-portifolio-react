@@ -13,14 +13,18 @@ const ButtonGroup = () => {
     <div className={`${about.right_box} ${about.button_group}`}>
       <div className={about.button_container}>
         <button
-          className={`${about.button} ${selectedButton === "Experiência" ? about.selected_button : ""}`}
+          className={`${about.button} ${about.left_button} ${
+            selectedButton === "Experiência" ? about.selected_button : ""
+          }`}
           onClick={() => handleClick("Experiência")}
           disabled={selectedButton === "Experiência"}
         >
           Experiência
         </button>
         <button
-          className={`${about.button} ${selectedButton === "Educação" ? about.selected_button : ""}`}
+          className={`${about.button} ${about.right_button} ${
+            selectedButton === "Educação" ? about.selected_button : ""
+          }`}
           onClick={() => handleClick("Educação")}
           disabled={selectedButton === "Educação"}
         >
@@ -34,14 +38,15 @@ const ButtonGroup = () => {
             Brazil <br /> <br />
             Minha jornada começou como um especialista em correção de bugs e
             implementação de recursos em aplicativos ERP mobile. Agora, estou
-            trabalhando em um projeto incrível de plataforma cruzada usando Node e
-            Flutter. Minha missão é coletar dados da API Node e transformá-los em
-            insights incríveis com o Flutter.
+            trabalhando em um projeto incrível de plataforma cruzada usando Node
+            e Flutter. Minha missão é coletar dados da API Node e transformá-los
+            em insights incríveis com o Flutter.
             <br />
             Recentemente, criei um Dashboard que fornece informações valiosas
             sobre os produtos vendidos, transformando dados complexos em uma
-            visualização atraente e fácil de entender. Sou obcecado em transformar
-            soluções tecnológicas em experiências incríveis para os usuários.
+            visualização atraente e fácil de entender. Sou obcecado em
+            transformar soluções tecnológicas em experiências incríveis para os
+            usuários.
             <br />
             Se você procura alguém apaixonado por tecnologia, inovação e
             criatividade, pode contar comigo. Estou sempre em busca de novos
@@ -50,9 +55,7 @@ const ButtonGroup = () => {
           </p>
         )}
         {selectedButton === "Educação" && (
-          <p className={about.content_text}>
-            Aqui vem o texto da Educação
-          </p>
+          <p className={about.content_text}>Aqui vem o texto da Educação</p>
         )}
       </div>
     </div>
@@ -60,4 +63,3 @@ const ButtonGroup = () => {
 };
 
 export default ButtonGroup;
-
