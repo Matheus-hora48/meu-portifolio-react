@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin: 50px 0;
+  width: 800px;
 }
 
 .contact_section h2 {
@@ -12,15 +13,15 @@
 }
 
 .contact_section p {
-  font-size: 1.4rem;
-  margin: 20px 0;
+  font-size: 1.2rem;
+  margin: 10px 0;
   text-align: center;
 }
 
 .contact_section__icons {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .contact_section__icons a {

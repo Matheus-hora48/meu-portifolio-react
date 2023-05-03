@@ -5,14 +5,24 @@
   align-items: center;
   height: 435px;
   padding: 1rem;
-  width: 100%;
+  margin-bottom: 20px;
+}
+
+.left{
+  align-self: start;
+  margin-right: 10px;
+
+}
+
+.right{
+  align-self: end;
+  margin-left: 10px;
 }
 
 .project_section__left {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 170px;
   margin-right: 1rem;
 }
 
