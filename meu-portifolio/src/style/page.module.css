@@ -173,6 +173,7 @@
 
 .navbar_button:hover{
   background-color: #3e384b;
+  color: #ff6600;
 }
 
 @media only screen and (max-width: 768px) {

@@ -1,5 +1,6 @@
 .project_section {
   display: flex;
+  width: 100%;
   background-color: #4a4458;
   border-radius: 12px;  
   align-items: center;
@@ -68,6 +69,7 @@
   font-weight: 700;
   line-height: 1.5;
   text-align: justify;
+  max-width: 300px;
 }
 
 .modal {
@@ -153,6 +155,7 @@
   .project_section {
     flex-direction: column;
     height: auto;
+    margin: 20px;
   }
   .project_section__left {
     margin-right: 0;

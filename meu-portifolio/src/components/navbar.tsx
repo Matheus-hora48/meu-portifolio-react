@@ -9,13 +9,13 @@ const Navbar = () => {
       </div>
       <div className={styles.navbar__right}>
         <div>
-          <Link href="/">
+          <Link href="#about">
             <span>Sobre Mim</span>
           </Link>
-          <Link href="/">
+          <Link href="#project">
             <span>Projetos</span>
           </Link>
-          <Link href="/" className={styles.navbar_button}>
+          <Link href="#contact" className={styles.navbar_button}>
             <span>Contato</span>
           </Link>
         </div>

@@ -21,20 +21,20 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #343434;
 }
 
 .speaker {
   width: 20px;
   height: 4px;
-  background-color: #fff;
+  background-color: #343434;
 }
 
 .sensors {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #343434;
 }
 
 .screen {
@@ -59,7 +59,7 @@
 
 .homeButton {
   position: absolute;
-  bottom: 16px;
+  bottom: 12px;
   left: 50%;
   transform: translateX(-50%);
   width: 32px;
@@ -72,7 +72,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  bottom: 22px;
+  bottom: 18px;
   left: 30px;
   cursor: pointer;
 }
@@ -81,7 +81,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  bottom: 22px;
+  bottom: 18px;
   right: 30px;
   cursor: pointer;
 }

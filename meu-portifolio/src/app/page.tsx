@@ -13,6 +13,7 @@ import ButtonGroup from "@/components/button";
 import ProjectSection from "@/components/project";
 import ContactSection from "@/components/contact";
 import SkillsSection from "@/components/skills";
+import ScrollToTopButton from "@/components/scroll";
 
 export default function Home() {
   return (
@@ -57,12 +58,14 @@ export default function Home() {
               }}
             />
           </div>
-          <Link href="/">
+          <Link href="#project">
             <span className={styles.button}>Meus Projetos</span>
           </Link>
         </div>
       </div>
-      <h1 style={{ padding: "20px" }}>Sobre Mim</h1>
+      <h1 id="about" style={{ padding: "20px" }}>
+        Sobre Mim
+      </h1>
       <section className={about.container}>
         <div className={about.left_box}>
           <div className={about.image_container}>
@@ -152,7 +155,10 @@ export default function Home() {
         <ButtonGroup />
       </section>
       <SkillsSection />
-      <h1 style={{ padding: "20px", marginBottom: "20px", marginTop: "60px" }}>
+      <h1
+        id="project"
+        style={{ padding: "20px", marginBottom: "20px", marginTop: "60px" }}
+      >
         Meus projetos
       </h1>
       <div className={styles.project_list}>
@@ -189,7 +195,10 @@ export default function Home() {
           repoLink="https://github.com/user/project4"
         />
       </div>
-      <ContactSection />
+      <div id="contact">
+        <ContactSection />
+      </div>
+      <ScrollToTopButton />
     </main>
   );
 }
