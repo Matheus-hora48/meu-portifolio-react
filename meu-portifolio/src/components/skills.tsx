@@ -1,5 +1,5 @@
 import styles from "../style/skills.module.css";
-import flutterSvg from "../../public/flutter.svg";
+import flutterSvg from "../../public/tech/flutter.svg";
 import Image from "next/image";
 
 // import htmlIcon from "../public/html.svg";
@@ -19,7 +19,7 @@ function SkillsSection() {
     <div className={styles.skills}>
       <h2>Skills e Frameworks</h2>
       <div className={styles.iconRow}>
-        <Image src={flutterSvg} alt="Flutter" />
+        <Image style={{ color: "red" }} src={flutterSvg} alt="Flutter" />
         <Image src={flutterSvg} alt="JavaScript" />
         <Image src={flutterSvg} alt="TypeScipt" />
         <Image src={flutterSvg} alt="Next.js" />
@@ -31,7 +31,7 @@ function SkillsSection() {
         <Image src={flutterSvg} alt="Postgress" />
         <Image src={flutterSvg} alt="Mysql" />
         <Image src={flutterSvg} alt="MariaDB" />
-        <Image src={flutterSvg} alt="Faribase" />   
+        <Image src={flutterSvg} alt="Faribase" />
         <Image src={flutterSvg} alt="Git" />
         <Image src={flutterSvg} alt="Figma" />
       </div>

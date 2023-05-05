@@ -2,8 +2,8 @@ import styles from "../style/page.module.css";
 import about from "../style/about.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import androidSvg from "../../public/android.svg";
-import flutterSvg from "../../public/flutter.svg";
+import androidSvg from "../../public/tech/android.svg";
+import flutterSvg from "../../public/tech/flutter.svg";
 import gitSvg from "../../public/git.svg";
 import linkedinSvg from "../../public/linkedin.svg";
 import emailSvg from "../../public/email.svg";
@@ -157,7 +157,7 @@ export default function Home() {
       </h1>
       <div className={styles.project_list}>
         <ProjectSection
-          align = "center"
+          align="center"
           title="Quitanda virtual com flutter"
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas.<br>
           O desenvolvimento desse projeto me permitiu aprender e aplicar conceitos importantes de programação em um ambiente real. Adquiri uma compreensão mais profunda de como os diferentes componentes de um aplicativo trabalham juntos e como aplicar práticas recomendadas para criar aplicativos seguros, eficientes e escaláveis. As habilidades adquiridas com a criação deste projeto são valiosas para o avanço da minha carreira de desenvolvedor e podem ser aplicadas em projetos futuros."
@@ -165,7 +165,7 @@ export default function Home() {
           repoLink="https://github.com/Matheus-hora48/loja-flutter"
         />
         <ProjectSection
-          align = "none"
+          align="none"
           title="Projeto 2"
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas.<br>
           O desenvolvimento desse projeto me permitiu aprender e aplicar conceitos importantes de programação em um ambiente real. Adquiri uma compreensão mais profunda de como os diferentes componentes de um aplicativo trabalham juntos e como aplicar práticas recomendadas para criar aplicativos seguros, eficientes e escaláveis. As habilidades adquiridas com a criação deste projeto são valiosas para o avanço da minha carreira de desenvolvedor e podem ser aplicadas em projetos futuros."
@@ -174,7 +174,7 @@ export default function Home() {
         />
         <ProjectSection
           title="Projeto 3"
-          align = "center"
+          align="center"
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas.<br>
           O desenvolvimento desse projeto me permitiu aprender e aplicar conceitos importantes de programação em um ambiente real. Adquiri uma compreensão mais profunda de como os diferentes componentes de um aplicativo trabalham juntos e como aplicar práticas recomendadas para criar aplicativos seguros, eficientes e escaláveis. As habilidades adquiridas com a criação deste projeto são valiosas para o avanço da minha carreira de desenvolvedor e podem ser aplicadas em projetos futuros."
           imageSrc={photoPng}
@@ -182,7 +182,7 @@ export default function Home() {
         />
         <ProjectSection
           title="Projeto 4"
-          align = "none"
+          align="none"
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas.<br>
           O desenvolvimento desse projeto me permitiu aprender e aplicar conceitos importantes de programação em um ambiente real. Adquiri uma compreensão mais profunda de como os diferentes componentes de um aplicativo trabalham juntos e como aplicar práticas recomendadas para criar aplicativos seguros, eficientes e escaláveis. As habilidades adquiridas com a criação deste projeto são valiosas para o avanço da minha carreira de desenvolvedor e podem ser aplicadas em projetos futuros."
           imageSrc={photoPng}
