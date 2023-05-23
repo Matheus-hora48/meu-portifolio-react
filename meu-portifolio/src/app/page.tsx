@@ -20,15 +20,15 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.container}>
-        <h2>Olá 👋 eu sou o Matheus</h2>
+        <h2 className={styles.heading2} >Olá 👋 eu sou o Matheus Hora</h2>
         <div className={styles.heading}>
           <h1 className={styles.heading1}>
-            Flutter <br />
-            Developer
+            FLUTTER <br />
+            DEVELOPER
           </h1>
           <h3 className={styles.heading3}>
             Tenho 21 anos sou desenvolvedor mobile <br /> com 2 anos de
-            experiência de trabalho
+            experiência na área 
           </h3>
         </div>
         <Link href="#project">

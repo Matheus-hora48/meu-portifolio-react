@@ -209,14 +209,21 @@
 }
 
 .heading1 {
-  font-size: 80px;
-  text-align: left;
+  font-size: 100px;
+  text-align: start;
+  font-weight: 800;
+}
+
+.heading2 {
+  font-size: 30px;
+  text-align: start;
   margin-top: 20px;
 }
 
 .heading3 {
   font-size: 20px;
-  text-align: right;
+  text-align: end;
+  
   margin-top: 10px;
 }
 

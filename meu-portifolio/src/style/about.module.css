@@ -31,6 +31,9 @@
   overflow: hidden;
   border: 8px solid #4A4458;
   box-shadow: 0px 4px 4px 0px #00000040;
+  display: flex;
+  justify-content: center;
+  align-items: top;
 }
 
 .contact {

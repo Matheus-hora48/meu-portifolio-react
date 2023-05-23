@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import styles from "../style/scroll.module.css";
-import ArrowUpIcon from "../../public/phone.svg";
+import ArrowUpIcon from "../../public/up-arrow.png";
 import Image from "next/image";
 
 const ScrollToTopButton = () => {
@@ -33,7 +33,7 @@ const ScrollToTopButton = () => {
       className={`${styles.button} ${showButton ? styles.show : ""}`}
       onClick={scrollToTop}
     >
-      <Image src={ArrowUpIcon} alt="Voltar ao topo" />
+      <Image src={ArrowUpIcon} width={40} alt="Voltar ao topo" />
     </div>
   );
 };
