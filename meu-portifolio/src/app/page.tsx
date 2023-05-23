@@ -20,21 +20,36 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.container}>
-        <h2 className={styles.heading2} >Olá 👋 eu sou o Matheus Hora</h2>
         <div className={styles.heading}>
-          <h1 className={styles.heading1}>
-            FLUTTER <br />
-            DEVELOPER
-          </h1>
-          <h3 className={styles.heading3}>
-            Tenho 21 anos sou desenvolvedor mobile <br /> com 2 anos de
-            experiência na área 
-          </h3>
+          <div className={styles.image_container}>
+            <Image
+              alt="Foto de Matheus"
+              src={photoPng}
+              width={315}
+              height={315}
+              style={{
+                objectPosition: "10% 20%",
+              }}
+            />
+          </div>
+          <div className={styles.text_container}>
+            <h2 className={styles.heading2}>Olá 👋 eu sou o Matheus Hora</h2>
+
+            <h1 className={styles.heading1}>
+              FLUTTER <br />
+              DEVELOPER
+            </h1>
+            <h3 className={styles.heading3}>
+              Tenho 21 anos sou desenvolvedor mobile <br /> com 2 anos de
+              experiência na área
+            </h3>
+          </div>
         </div>
-        <Link href="#project">
+        {/* <Link href="#project">
           <span className={styles.button}>Meus Projetos</span>
-        </Link>
+        </Link> */}
       </div>
+
       <h1 id="about" style={{ padding: "20px" }}>
         Sobre Mim
       </h1>
@@ -79,7 +94,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className={about.contact}>
+          <div className={about.contact} style={{ fontWeight: "300" }}>
             <p>
               E aí, beleza? Sou um desenvolvedor Flutter super capacitado e
               motivado, com um amor insaciável por tecnologia e soluções

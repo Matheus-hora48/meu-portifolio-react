@@ -35,7 +35,7 @@ const ButtonGroup = () => {
       </div>
       <div className={about.content_container}>
         {selectedButton === "Experiência" && (
-          <p className={about.content_text}>
+          <p className={about.content_text} style={{ fontWeight: "300" }}>
             Top Soft Informática - ago de 2021 - O momento Barreiras, Bahia,
             Brazil <br /> <br />
             Minha jornada começou como um especialista em correção de bugs e
@@ -57,7 +57,7 @@ const ButtonGroup = () => {
           </p>
         )}
         {selectedButton === "Educação" && (
-          <p className={about.content_text}>
+          <p className={about.content_text} style={{ fontWeight: "300" }}>
             Bacharelado em Engenharia de Software - Cruzeiro do Sul Virtual,
             conclusão em 2025. <br />
             <br />
