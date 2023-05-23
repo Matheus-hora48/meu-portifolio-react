@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbar__left}>
-        <h1>Matheus hora</h1>
+        <Link href="/">
+          <h1>Matheus hora</h1>
+        </Link>
       </div>
       <div className={styles.navbar__right}>
         <div>
