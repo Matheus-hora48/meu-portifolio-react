@@ -9,6 +9,7 @@ import linkedinSvg from "../../public/linkedin.svg";
 import emailSvg from "../../public/email.svg";
 import phoneSvg from "../../public/phone.svg";
 import photoPng from "../../public/photo.png";
+import foto from "../../public/3.png";
 import ButtonGroup from "@/components/button";
 import ProjectSection from "@/components/project";
 import ContactSection from "@/components/contact";
@@ -19,49 +20,20 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.container}>
-        <div className={styles.left_column}>
-          <Image
-            alt="Foto de Matheus"
-            src={photoPng}
-            width={315}
-            height={315}
-            style={{
-              borderRadius: "50%",
-              borderColor: "#4A4458",
-              borderWidth: "8px",
-              borderStyle: "solid",
-            }}
-          />
+        <h2>Olá 👋 eu sou o Matheus</h2>
+        <div className={styles.heading}>
+          <h1 className={styles.heading1}>
+            Flutter <br />
+            Developer
+          </h1>
+          <h3 className={styles.heading3}>
+            Tenho 21 anos sou desenvolvedor mobile <br /> com 2 anos de
+            experiência de trabalho
+          </h3>
         </div>
-        <div className={styles.right_column}>
-          <h2>Olá, eu sou o Matheus</h2>
-          <div className={styles.mobile_icon}>
-            <Image
-              alt=""
-              src={flutterSvg}
-              width={40}
-              height={40}
-              style={{
-                marginLeft: "20px",
-                marginRight: "20px",
-              }}
-            />
-            <p>Desenvolvedor mobile</p>
-            <Image
-              alt=""
-              src={androidSvg}
-              width={40}
-              height={40}
-              style={{
-                marginLeft: "20px",
-                marginRight: "20px",
-              }}
-            />
-          </div>
-          <Link href="#project">
-            <span className={styles.button}>Meus Projetos</span>
-          </Link>
-        </div>
+        <Link href="#project">
+          <span className={styles.button}>Meus Projetos</span>
+        </Link>
       </div>
       <h1 id="about" style={{ padding: "20px" }}>
         Sobre Mim
@@ -165,33 +137,29 @@ export default function Home() {
         <ProjectSection
           align="center"
           title="Quitanda virtual com flutter"
-          description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas.<br>
-          O desenvolvimento desse projeto me permitiu aprender e aplicar conceitos importantes de programação em um ambiente real. Adquiri uma compreensão mais profunda de como os diferentes componentes de um aplicativo trabalham juntos e como aplicar práticas recomendadas para criar aplicativos seguros, eficientes e escaláveis. As habilidades adquiridas com a criação deste projeto são valiosas para o avanço da minha carreira de desenvolvedor e podem ser aplicadas em projetos futuros."
-          imageSrc={photoPng}
+          description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
+          imageSrc={foto}
           repoLink="https://github.com/Matheus-hora48/loja-flutter"
         />
         <ProjectSection
           align="none"
           title="Projeto 2"
-          description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas.<br>
-          O desenvolvimento desse projeto me permitiu aprender e aplicar conceitos importantes de programação em um ambiente real. Adquiri uma compreensão mais profunda de como os diferentes componentes de um aplicativo trabalham juntos e como aplicar práticas recomendadas para criar aplicativos seguros, eficientes e escaláveis. As habilidades adquiridas com a criação deste projeto são valiosas para o avanço da minha carreira de desenvolvedor e podem ser aplicadas em projetos futuros."
-          imageSrc={photoPng}
+          description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
+          imageSrc={foto}
           repoLink="https://github.com/user/project2"
         />
         <ProjectSection
           title="Projeto 3"
           align="center"
-          description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas.<br>
-          O desenvolvimento desse projeto me permitiu aprender e aplicar conceitos importantes de programação em um ambiente real. Adquiri uma compreensão mais profunda de como os diferentes componentes de um aplicativo trabalham juntos e como aplicar práticas recomendadas para criar aplicativos seguros, eficientes e escaláveis. As habilidades adquiridas com a criação deste projeto são valiosas para o avanço da minha carreira de desenvolvedor e podem ser aplicadas em projetos futuros."
-          imageSrc={photoPng}
+          description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
+          imageSrc={foto}
           repoLink="https://github.com/user/project3"
         />
         <ProjectSection
           title="Projeto 4"
           align="none"
-          description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas.<br>
-          O desenvolvimento desse projeto me permitiu aprender e aplicar conceitos importantes de programação em um ambiente real. Adquiri uma compreensão mais profunda de como os diferentes componentes de um aplicativo trabalham juntos e como aplicar práticas recomendadas para criar aplicativos seguros, eficientes e escaláveis. As habilidades adquiridas com a criação deste projeto são valiosas para o avanço da minha carreira de desenvolvedor e podem ser aplicadas em projetos futuros."
-          imageSrc={photoPng}
+          description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
+          imageSrc={foto}
           repoLink="https://github.com/user/project4"
         />
       </div>

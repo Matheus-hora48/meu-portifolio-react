@@ -43,11 +43,9 @@ function ProjectSection({
     >
       <div className={styles.project_section__left}>
         <div className={styles.project_section__image}>
-          <Image src={imageSrc} width={170} height={170} alt={title} />
+          <Image src={imageSrc} width={260} height={400} alt={title} />
         </div>
-        <button className={styles.project_section__button} onClick={openModal}>
-          Ver Mais
-        </button>
+
         {showModal && (
           <div className={styles.modal}>
             <div className={styles.modal__content}>
@@ -74,6 +72,9 @@ function ProjectSection({
       <div className={styles.project_section__right}>
         <h2 className={styles.project_section__title}>{title}</h2>
         {paragraphs}
+        <button className={styles.project_section__button} onClick={openModal}>
+          Ver Mais
+        </button>
       </div>
     </div>
   );

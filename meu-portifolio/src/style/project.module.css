@@ -11,13 +11,13 @@
 
 .left{
   align-self: start;
-  margin-right: 10px;
+  margin-right: 20px;
 
 }
 
 .right{
   align-self: end;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .project_section__left {
@@ -28,11 +28,9 @@
 }
 
 .project_section__image {
-  width: 170px;
-  height: 170px;
+  width: 260px;
+  height: 400px;
   border-radius: 12px;
-  overflow: hidden;
-  margin-bottom: 1rem;
 }
 
 .project_section__button {
@@ -61,15 +59,19 @@
 
 .project_section__title {
   font-size: 20px;
+  font-weight: 900;
   margin-bottom: 1rem;
+  padding-right: 20px;
 }
 
 .project_section__description {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 1.5;
   text-align: justify;
   max-width: 300px;
+  padding-right: 20px;
+  margin-bottom: 1rem;
 }
 
 .modal {

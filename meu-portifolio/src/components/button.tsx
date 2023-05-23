@@ -3,7 +3,9 @@ import { useState } from "react";
 import about from "../style/about.module.css";
 
 const ButtonGroup = () => {
-  const [selectedButton, setSelectedButton] = useState<string | null>("Experiência");
+  const [selectedButton, setSelectedButton] = useState<string | null>(
+    "Experiência"
+  );
 
   const handleClick = (buttonText: string) => {
     setSelectedButton(buttonText);
@@ -55,7 +57,23 @@ const ButtonGroup = () => {
           </p>
         )}
         {selectedButton === "Educação" && (
-          <p className={about.content_text}>Aqui vem o texto da Educação</p>
+          <p className={about.content_text}>
+            Bacharelado em Engenharia de Software - Cruzeiro do Sul Virtual,
+            conclusão em 2025. <br />
+            <br />
+            Certificações: <br /> <br />
+            Masterclass Turma 6 - Flutterando <br /> Flutter & Dart - O Guia
+            Completo - Udemy <br /> Responsividade no Flutter - Udemy
+            <br />
+            Desenvolvimento de Aplicativos usando Kotlin - Udemy <br />
+            Injeção deDependências no Flutter com GetIt + Injectable - Udemy
+            <br /> <br />
+            No geral, minha experiência e formação demonstram um conjunto
+            diversificado de habilidades no desenvolvimento de aplicativos
+            móveis e engenharia de software. Estou preparado para desempenhar
+            papéis relevantes nessas áreas e estou entusiasmado para aplicar
+            meus conhecimentos em projetos futuros.
+          </p>
         )}
       </div>
     </div>
