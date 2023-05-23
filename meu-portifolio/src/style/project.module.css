@@ -12,7 +12,6 @@
 .left{
   align-self: start;
   margin-right: 20px;
-
 }
 
 .right{
@@ -152,18 +151,35 @@
   background-color: #d32f2f;
 }
 
-
 @media screen and (max-width: 768px) {
   .project_section {
     flex-direction: column;
     height: auto;
     margin: 20px;
   }
-  .project_section__left {
+  
+  .left,
+  .right {
+    align-self: auto;
     margin-right: 0;
+    margin-left: 0;
+  }
+
+  .project_section__left {
     margin-bottom: 1rem;
   }
-  .project_section__right {
-    margin-left: 0;
+  
+  .project_section__image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    margin-bottom: 1rem;
+  }
+
+  .project_section__title,
+  .project_section__description {
+    padding-right: 0;
+    text-align: center;
+    max-width: 100%;
   }
 }

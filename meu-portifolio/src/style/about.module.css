@@ -1,4 +1,3 @@
-/* Estilos padrão para tela grande */
 .container {
   display: flex;
   justify-content: center;
@@ -107,14 +106,12 @@
   margin-right: 10px;
 }
 
-/* Media query para telas menores */
 @media screen and (max-width: 1200px) {
   .image_container {
     display: none;
   }
 }
 
-/* Media query para telas menores */
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -145,7 +142,6 @@
   }
 }
 
-/* Estilos para os botões */
 .button_group {
   display: flex;
   flex-direction: column;

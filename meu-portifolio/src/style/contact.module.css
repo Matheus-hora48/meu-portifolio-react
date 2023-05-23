@@ -51,8 +51,16 @@
   background-color: #c0a8f9;
 }
 
+@media screen and (max-width: 1024px) {
+  .contact_section {
+    width: 90%;
+    padding: 0 20px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .contact_section {
+    width: 100%;
     margin: 30px 0;
   }
 
@@ -83,5 +91,28 @@
     margin-top: 15px;
     padding: 8px 16px;
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact_section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .contact_section p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+
+  .contact_section__icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .contact_section__button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-size: 1rem;
   }
 }

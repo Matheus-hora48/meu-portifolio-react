@@ -1,23 +1,22 @@
 .skills {
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    background-color: #4a4458;
-    border-radius: 12px;
-    display: flex;
-    padding: 1rem;
-    align-items: center;
-    width: 100%;
-    max-width: var(--max-width)
-  }
-  
-  .skills h2 {
-    font-size: 1.8rem;
-    margin-bottom: 30px;
-    justify-content: center;
-  }
-  
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  background-color: #4a4458;
+  border-radius: 12px;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.skills h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  justify-content: center;
+}
 
 .iconRow {
   display: flex;
@@ -31,7 +30,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .skills {
+    padding: 0.5rem;
+  }
+
   .iconRow {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
     grid-gap: 20px;
   }
