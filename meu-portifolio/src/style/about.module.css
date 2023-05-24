@@ -49,10 +49,8 @@
 
 .content_container p {
   font-size: 1.1rem;
-  letter-spacing: 0em;
   text-align: justify;
   max-width: 450px;
-  margin: 0 auto;
 }
 
 .links {
@@ -113,8 +111,22 @@
 }
 
 @media screen and (max-width: 768px) {
+  .about{
+    margin-top: 200px;
+    font-size: 1.5rem;
+  }
+
   .container {
     flex-direction: column;
+    width: 100vw;
+  }
+
+  .content_container p {
+    font-size: 1rem;
+  }
+  
+  .contact  p {
+    font-size: 1rem;
   }
 
   .image_container {
@@ -123,7 +135,7 @@
 
   .left_box,
   .right_box {
-    width: 90%;
+    width: 90vw;
     margin-right: 0;
     margin-bottom: 20px;
   }

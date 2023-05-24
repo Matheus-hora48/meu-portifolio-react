@@ -9,7 +9,10 @@ import linkedinSvg from "../../public/linkedin.svg";
 import emailSvg from "../../public/email.svg";
 import phoneSvg from "../../public/phone.svg";
 import photoPng from "../../public/photo.png";
-import foto from "../../public/3.png";
+import foto1 from "../../public/13.png";
+import foto2 from "../../public/7.png";
+import foto3 from "../../public/9.png";
+import foto4 from "../../public/9.png";
 import ButtonGroup from "@/components/button";
 import ProjectSection from "@/components/project";
 import ContactSection from "@/components/contact";
@@ -21,22 +24,24 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.container}>
         <div className={styles.heading}>
-          <div className={styles.image_container}>
-            <Image
-              alt="Foto de Matheus"
-              src={photoPng}
-              width={315}
-              height={315}
-              style={{
-                objectPosition: "10% 20%",
-              }}
-            />
-          </div>
           <div className={styles.text_container}>
             <h2 className={styles.heading2}>Olá 👋 eu sou o Matheus Hora</h2>
-
-            <h1 className={styles.heading1}>
-              FLUTTER <br />
+            <div className={styles.headingline}>
+              <h1 className={styles.heading1} style={{ marginTop: "20px" }}>
+                FLUTTER
+              </h1>
+              <Image
+                alt="Foto de Matheus"
+                src={photoPng}
+                className={styles.image_container}
+                width={315}
+                height={315}
+                style={{
+                  objectPosition: "10% 20%",
+                }}
+              />
+            </div>
+            <h1 className={styles.heading1} style={{ marginBottom: "20px" }}>
               DEVELOPER
             </h1>
             <h3 className={styles.heading3}>
@@ -45,12 +50,9 @@ export default function Home() {
             </h3>
           </div>
         </div>
-        {/* <Link href="#project">
-          <span className={styles.button}>Meus Projetos</span>
-        </Link> */}
       </div>
 
-      <h1 id="about" style={{ padding: "20px" }}>
+      <h1 id="about" className={about.about} style={{ padding: "20px" }}>
         Sobre Mim
       </h1>
       <section className={about.container}>
@@ -153,28 +155,28 @@ export default function Home() {
           align="center"
           title="Quitanda virtual com flutter"
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
-          imageSrc={foto}
+          imageSrc={foto1}
           repoLink="https://github.com/Matheus-hora48/loja-flutter"
         />
         <ProjectSection
           align="none"
           title="Projeto 2"
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
-          imageSrc={foto}
+          imageSrc={foto2}
           repoLink="https://github.com/user/project2"
         />
         <ProjectSection
           title="Projeto 3"
           align="center"
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
-          imageSrc={foto}
+          imageSrc={foto3}
           repoLink="https://github.com/user/project3"
         />
         <ProjectSection
           title="Projeto 4"
           align="none"
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
-          imageSrc={foto}
+          imageSrc={foto4}
           repoLink="https://github.com/user/project4"
         />
       </div>

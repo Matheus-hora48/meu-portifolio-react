@@ -1,12 +1,11 @@
 .skills {
-  justify-content: space-between;
   flex-direction: column;
   align-items: center;
   background-color: #fff;
   background-color: #4a4458;
   border-radius: 12px;
   display: flex;
-  padding: 1rem;
+  padding: 1.2rem;
   align-items: center;
   width: 100%;
   max-width: var(--max-width);
@@ -25,18 +24,17 @@
   column-gap: 10px;
   justify-content: center;
   width: 90%;
-  margin: 10px 0;
   align-content: center;
 }
 
 @media screen and (max-width: 768px) {
+
+  .skills h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
   .skills {
     padding: 0.5rem;
-  }
-
-  .iconRow {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
-    grid-gap: 20px;
+    width:90vw;
   }
 }

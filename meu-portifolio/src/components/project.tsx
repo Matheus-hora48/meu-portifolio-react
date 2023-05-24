@@ -41,40 +41,47 @@ function ProjectSection({
         align === "center" ? styles.left : styles.right
       } `}
     >
-      <div className={styles.project_section__left}>
-        <div className={styles.project_section__image}>
-          <Image src={imageSrc} width={260} height={400} alt={title} />
-        </div>
+      <div className={styles.container}>
+        <div className={styles.project_section__left}>
+          <div className={styles.project_section__image}>
+            <Image src={imageSrc} width={300} height={533} alt={title} />
+          </div>
 
-        {showModal && (
-          <div className={styles.modal}>
-            <div className={styles.modal__content}>
-              <h2 className={styles.modal__title}>{title}</h2>
-              <Phone />
-              <p className={styles.modal__description}>
-                Deseja ir para o repositório?
-              </p>
-              <div className={styles.modal__buttons}>
-                <a href={repoLink}>
-                  <button className={styles.modal__button}>Repositório</button>
-                </a>
-                <button
-                  className={styles.modal__button_cancel}
-                  onClick={closeModal}
-                >
-                  Cancelar
-                </button>
+          {showModal && (
+            <div className={styles.modal}>
+              <div className={styles.modal__content}>
+                <h2 className={styles.modal__title}>{title}</h2>
+                <Phone />
+                <p className={styles.modal__description}>
+                  Deseja ir para o repositório?
+                </p>
+                <div className={styles.modal__buttons}>
+                  <a href={repoLink}>
+                    <button className={styles.modal__button}>
+                      Repositório
+                    </button>
+                  </a>
+                  <button
+                    className={styles.modal__button_cancel}
+                    onClick={closeModal}
+                  >
+                    Cancelar
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        )}
-      </div>
-      <div className={styles.project_section__right}>
-        <h2 className={styles.project_section__title}>{title}</h2>
-        {paragraphs}
-        <button className={styles.project_section__button} onClick={openModal}>
-          Ver Mais
-        </button>
+          )}
+        </div>
+        <div className={styles.project_section__right}>
+          <h2 className={styles.project_section__title}>{title}</h2>
+          {paragraphs}
+          <button
+            className={styles.project_section__button}
+            onClick={openModal}
+          >
+            Ver Mais
+          </button>
+        </div>
       </div>
     </div>
   );

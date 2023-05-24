@@ -2,14 +2,15 @@ import styles from "../style/skills.module.css";
 import flutterSvg from "../../public/tech/flutter.svg";
 import Image from "next/image";
 
-// import htmlIcon from "../public/html.svg";
-// import cssIcon from "../public/css.svg";
-// import jsIcon from "../public/js.svg";
-// import reactIcon from "../public/react.svg";
-// import nextjsIcon from "../public/nextjs.svg";
-// import nodejsIcon from "../public/nodejs.svg";
-// import mongoIcon from "../public/mongo.svg";
-// import mysqlIcon from "../public/mysql.svg";
+// import htmlIcon from "../public/tech/html.svg";
+// import cssIcon from "../public/tech/css.svg";
+import jsIcon from "../../public/tech/javascript.svg";
+import tyIcon from "../../public/tech/typescript.svg";
+import nextjsIcon from "../../public/tech/nextjs.svg";
+// import reactIcon from "../../public/tech/react.svg";
+// import nodejsIcon from "../../public/tech/nodejs.svg";
+// import mongoIcon from "../public/tech/mongo.svg";
+// import mysqlIcon from "../public/tech/mysql.svg";
 // import figmaIcon from "../public/figma.svg";
 // import photoshopIcon from "../public/photoshop.svg";
 // import illustratorIcon from "../public/illustrator.svg";
@@ -19,21 +20,21 @@ function SkillsSection() {
     <div className={styles.skills}>
       <h2>Skills e Frameworks</h2>
       <div className={styles.iconRow}>
-        <Image style={{ color: "red" }} src={flutterSvg} alt="Flutter" />
-        <Image src={flutterSvg} alt="JavaScript" />
-        <Image src={flutterSvg} alt="TypeScipt" />
-        <Image src={flutterSvg} alt="Next.js" />
-        <Image src={flutterSvg} alt="Node.js" />
-        <Image src={flutterSvg} alt="Android" />
-        <Image src={flutterSvg} alt="Kotlin" />
-        <Image src={flutterSvg} alt="HTML" />
-        <Image src={flutterSvg} alt="Css" />
-        <Image src={flutterSvg} alt="Postgress" />
-        <Image src={flutterSvg} alt="Mysql" />
-        <Image src={flutterSvg} alt="MariaDB" />
-        <Image src={flutterSvg} alt="Faribase" />
-        <Image src={flutterSvg} alt="Git" />
-        <Image src={flutterSvg} alt="Figma" />
+        <Image src={flutterSvg} width={50} height={50} alt="Flutter" />
+        <Image src={jsIcon} width={50} height={50} alt="JavaScript" />
+        <Image src={tyIcon} width={50} height={50} alt="TypeScipt" />
+        <Image src={nextjsIcon} width={50} height={50} alt="Next.js" />
+        <Image src={flutterSvg} width={50} height={50} alt="Node.js" />
+        <Image src={flutterSvg} width={50} height={50} alt="Android" />
+        <Image src={flutterSvg} width={50} height={50} alt="Kotlin" />
+        <Image src={flutterSvg} width={50} height={50} alt="HTML" />
+        <Image src={flutterSvg} width={50} height={50} alt="Css" />
+        <Image src={flutterSvg} width={50} height={50} alt="Postgress" />
+        <Image src={flutterSvg} width={50} height={50} alt="Mysql" />
+        <Image src={flutterSvg} width={50} height={50} alt="MariaDB" />
+        <Image src={flutterSvg} width={50} height={50} alt="Faribase" />
+        <Image src={flutterSvg} width={50} height={50} alt="Git" />
+        <Image src={flutterSvg} width={50} height={50} alt="Figma" />
       </div>
     </div>
   );
