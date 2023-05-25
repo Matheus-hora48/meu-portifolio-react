@@ -145,6 +145,7 @@ export default function Home() {
       </section>
       <SkillsSection />
       <h1
+        className={{styles.project}}
         id="project"
         style={{ padding: "20px", marginBottom: "20px", marginTop: "60px" }}
       >

@@ -70,6 +70,10 @@
     width: 100%;
   }
 
+  .project{
+    font-size: 20px;
+  }
+
   .description p {
     align-items: center;
     inset: 0 0 auto;
