@@ -3,8 +3,16 @@ import "../style/globals.css";
 import Navbar from "@/components/navbar";
 
 export const metadata = {
-  title: "Meu Portifólio",
-  description: "Portifó do Matheus",
+  title: {
+    default: "Portfólio de Matheus Hora",
+    template: "%s | Portfólio de Matheus Hora",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  description:
+    "Explore o portfólio de Matheus Hora e veja seus trabalhos e projetos.",
 };
 
 export default function RootLayout({
@@ -12,7 +20,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-
   return (
     <html lang="pt-br">
       <body>
