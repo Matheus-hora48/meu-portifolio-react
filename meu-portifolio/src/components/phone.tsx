@@ -13,10 +13,31 @@ interface Imagens {
 export default function Phone() {
   const Imagens: Array<Imagens> = [
     {
-      src: "https://img.freepik.com/fotos-gratis/close-de-um-filhote-de-cachorro-golden-retriever-fofo-isolado-em-uma-superficie-branca_181624-40949.jpg",
+      src: "../../public/projeto1/11.png",
     },
     {
-      src: "https://img.freepik.com/fotos-gratis/em-fuga-o-cachorrinho-maltipu-esta-posando_155003-22631.jpg?w=2000",
+      src: "../../public/projeto1/12.png",
+    },
+    {
+      src: "../../public/projeto1/13.png",
+    },
+    {
+      src: "../../public/projeto1/14.png",
+    },
+    {
+      src: "../../public/projeto1/15.png",
+    },
+    {
+      src: "../../public/projeto1/16.png",
+    },
+    {
+      src: "../../public/projeto1/17.png",
+    },
+    {
+      src: "../../public/projeto1/18.png",
+    },
+    {
+      src: "../../public/projeto1/19.png",
     },
   ];
 
