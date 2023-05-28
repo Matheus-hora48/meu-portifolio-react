@@ -45,7 +45,7 @@ export default function Home() {
               DEVELOPER
             </h1>
             <h3 className={styles.heading3}>
-              Tenho 21 anos sou desenvolvedor mobile <br /> com 2 anos de
+              Tenho 21 anos, sou desenvolvedor mobile, <br /> tenho mais de 2 anos de
               experiência na área
             </h3>
           </div>
