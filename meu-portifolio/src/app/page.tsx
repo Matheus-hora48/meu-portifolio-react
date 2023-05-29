@@ -177,9 +177,9 @@ export default function Home() {
         <ProjectSection
           title="To do com GetX e Sqflite (dark mode)"
           align="none"
-          description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
+          description="O aplicativo To-Do com lembretes personalizados é uma ferramenta eficiente e versátil para organizar tarefas diárias, semanais e mensais. Ele oferece uma experiência intuitiva para gerenciar atividades diárias, permitindo salvar tarefas e configurar lembretes personalizados. Os lembretes podem ser definidos para diferentes frequências, garantindo que tarefas importantes nunca sejam esquecidas. "
           imageSrc={foto4}
-          repoLink="https://github.com/user/project4"
+          repoLink="https://github.com/Matheus-hora48/Flutter-To-Do-App"
         />
       </div>
       <div id="contact">
