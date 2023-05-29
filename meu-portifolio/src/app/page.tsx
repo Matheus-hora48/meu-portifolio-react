@@ -9,6 +9,7 @@ import linkedinSvg from "../../public/linkedin.svg";
 import emailSvg from "../../public/email.svg";
 import phoneSvg from "../../public/phone.svg";
 import photoPng from "../../public/photo.png";
+import myphotoPng from "../../public/myphoto.png";
 import foto1 from "../../public/13.png";
 import foto2 from "../../public/7.png";
 import foto3 from "../../public/image1.jpg";
@@ -36,9 +37,6 @@ export default function Home() {
                 className={styles.image_container}
                 width={315}
                 height={315}
-                style={{
-                  objectPosition: "10% 20%",
-                }}
               />
             </div>
             <h1 className={styles.heading1} style={{ marginBottom: "20px" }}>
@@ -60,7 +58,7 @@ export default function Home() {
           <div className={about.image_container}>
             <Image
               alt="Foto de Matheus"
-              src={photoPng}
+              src={myphotoPng}
               className={about.image}
             />
           </div>
