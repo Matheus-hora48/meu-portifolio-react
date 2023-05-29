@@ -11,7 +11,7 @@ import phoneSvg from "../../public/phone.svg";
 import photoPng from "../../public/photo.png";
 import foto1 from "../../public/13.png";
 import foto2 from "../../public/7.png";
-import foto3 from "../../public/9.png";
+import foto3 from "../../public/image1.jpg";
 import foto4 from "../../public/9.png";
 import ButtonGroup from "@/components/button";
 import ProjectSection from "@/components/project";
@@ -45,8 +45,8 @@ export default function Home() {
               DEVELOPER
             </h1>
             <h3 className={styles.heading3}>
-              Tenho 21 anos, sou desenvolvedor mobile, <br /> tenho mais de 2 anos de
-              experiência na área
+              Tenho 21 anos, sou desenvolvedor mobile, <br /> tenho mais de 2
+              anos de experiência na área
             </h3>
           </div>
         </div>
@@ -154,27 +154,28 @@ export default function Home() {
       <div className={styles.project_list}>
         <ProjectSection
           align="center"
-          title="Quitanda virtual com flutter"
+          title="E-commerce com GetX e API"
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
           imageSrc={foto1}
           repoLink="https://github.com/Matheus-hora48/loja-flutter"
         />
         <ProjectSection
           align="none"
-          title="Projeto 2"
-          description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
+          title="Chat realtime com GetX e faribase"
+          description="O projeto utiliza o Firebase, uma plataforma fornecida pelo Google, para lidar com a autenticação de usuários, armazenamento e sincronização de mensagens em tempo real, além de compartilhamento de fotos. Além disso,  GetX ajuda a desenvolver um aplicativo fluido, estruturado e de fácil manutenção. Juntas, essas tecnologias proporcionam aos usuários uma experiência excepcional de chat em tempo real."
           imageSrc={foto2}
-          repoLink="https://github.com/user/project2"
+          repoLink="https://github.com/Matheus-hora48/flutter-chat"
         />
         <ProjectSection
-          title="Projeto 3"
+          title="Previsão do tempo com api externa"
           align="center"
-          description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
+          description="Esse app fornece informações sobre o clima em diferentes lugares e utiliza uma API externa para obter esses dados precisos.
+          O aplicativo utiliza a localização do dispositivo para exibir a previsão do tempo específica da região em que o usuário se encontra. Isso é possível graças à integração com a API de previsão do tempo, uma fonte confiável de informações climáticas."
           imageSrc={foto3}
-          repoLink="https://github.com/user/project3"
+          repoLink="https://github.com/Matheus-hora48/Weather-App"
         />
         <ProjectSection
-          title="Projeto 4"
+          title="To do com GetX e Sqflite (dark mode)"
           align="none"
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
           imageSrc={foto4}
