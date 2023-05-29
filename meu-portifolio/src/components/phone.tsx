@@ -4,19 +4,21 @@ import styles from "../style/phone.module.css";
 // import Slider from "react-slick";
 import SetaDireita from "../../public/seta-direita.png";
 import SetaEsquerda from "../../public/seta-esquerda.png";
-
+import foto1 from "../../public/projeto1/11.png";
+import foto2 from "../../public/projeto1/12.png";
+import foto3 from "../../public/projeto1/13.png";
+import foto4 from "../../public/projeto1/14.png";
 import Image from "next/image";
-import PropTypes from "prop-types";
 
-export default function Phone({ imagens }) {
-  const [indiceAtual, setIndiceAtual] = useState(0);
-
+export default function Phone() {
+  const Imagens = [foto1, foto2, foto3, foto4];
+  const [indiceAtual, setIndiceAtual] = useState<number>(0);
   const handlePreviousClick = () => {
-    setIndiceAtual(indiceAtual === 0 ? imagens.length - 1 : indiceAtual - 1);
+    setIndiceAtual(indiceAtual === 0 ? Imagens.length - 1 : indiceAtual - 1);
   };
 
   const handleNextClick = () => {
-    setIndiceAtual(indiceAtual === imagens.length - 1 ? 0 : indiceAtual + 1);
+    setIndiceAtual(indiceAtual === Imagens.length - 1 ? 0 : indiceAtual + 1);
   };
 
   return (
@@ -24,7 +26,7 @@ export default function Phone({ imagens }) {
       <div className={styles.images}>
         <Image
           className={styles.screen_img}
-          src={imagens[indiceAtual]}
+          src={Imagens[indiceAtual]}
           alt="Slide 1"
         />
         <div className={styles.seta}>
@@ -45,7 +47,3 @@ export default function Phone({ imagens }) {
     </div>
   );
 }
-
-Phone.propTypes = {
-  imagens: PropTypes.arrayOf(PropTypes.string).isRequired,
-};

@@ -53,7 +53,7 @@ function ProjectSection({
             <div className={styles.modal}>
               <div className={styles.modal__content}>
                 <h2 className={styles.modal__title}>{title}</h2>
-                <Phone imagens={[imagens]} />
+                <Phone />
                 <p className={styles.modal__description}>
                   Deseja ir para o repositório?
                 </p>
