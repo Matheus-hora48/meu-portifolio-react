@@ -14,6 +14,40 @@ import foto1 from "../../public/13.png";
 import foto2 from "../../public/7.png";
 import foto3 from "../../public/image1.jpg";
 import foto4 from "../../public/9.png";
+
+import projeto011 from "../../public/projeto1/11.png";
+import projeto012 from "../../public/projeto1/12.png";
+import projeto013 from "../../public/projeto1/13.png";
+import projeto014 from "../../public/projeto1/14.png";
+import projeto015 from "../../public/projeto1/15.png";
+import projeto016 from "../../public/projeto1/16.png";
+import projeto017 from "../../public/projeto1/17.png";
+import projeto018 from "../../public/projeto1/18.png";
+import projeto019 from "../../public/projeto1/19.png";
+
+import projeto021 from "../../public/projeto2/1.png";
+import projeto022 from "../../public/projeto2/2.png";
+import projeto023 from "../../public/projeto2/3.png";
+import projeto024 from "../../public/projeto2/4.png";
+import projeto025 from "../../public/projeto2/5.png";
+import projeto026 from "../../public/projeto2/6.png";
+import projeto027 from "../../public/projeto2/7.png";
+import projeto028 from "../../public/projeto2/8.png";
+import projeto029 from "../../public/projeto2/9.png";
+import projeto0210 from "../../public/projeto2/10.png";
+
+import projeto031 from "../../public/projeto3/1.jpg";
+import projeto032 from "../../public/projeto4/12.jpg";
+
+import projeto041 from "../../public/projeto4/20.png";
+import projeto042 from "../../public/projeto4/21.png";
+import projeto043 from "../../public/projeto4/22.png";
+import projeto044 from "../../public/projeto4/23.png";
+import projeto045 from "../../public/projeto4/24.png";
+import projeto046 from "../../public/projeto4/25.png";
+import projeto047 from "../../public/projeto4/26.png";
+import projeto048 from "../../public/projeto4/27.png";
+
 import ButtonGroup from "@/components/button";
 import ProjectSection from "@/components/project";
 import ContactSection from "@/components/contact";
@@ -21,6 +55,44 @@ import SkillsSection from "@/components/skills";
 import ScrollToTopButton from "@/components/scroll";
 
 export default function Home() {
+  const projeto1 = [
+    projeto011,
+    projeto012,
+    projeto013,
+    projeto014,
+    projeto015,
+    projeto016,
+    projeto017,
+    projeto018,
+    projeto019,
+  ];
+
+  const projeto2 = [
+    projeto021,
+    projeto022,
+    projeto023,
+    projeto024,
+    projeto025,
+    projeto026,
+    projeto027,
+    projeto028,
+    projeto029,
+    projeto0210,
+  ];
+
+  const projeto3 = [projeto031, projeto032];
+
+  const projeto4 = [
+    projeto041,
+    projeto042,
+    projeto043,
+    projeto044,
+    projeto045,
+    projeto046,
+    projeto047,
+    projeto048,
+  ];
+
   return (
     <main className={styles.main}>
       <div className={styles.container}>
@@ -156,6 +228,7 @@ export default function Home() {
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
           imageSrc={foto1}
           repoLink="https://github.com/Matheus-hora48/loja-flutter"
+          imagens={projeto1}
         />
         <ProjectSection
           align="none"
@@ -163,6 +236,7 @@ export default function Home() {
           description="O projeto utiliza o Firebase, uma plataforma fornecida pelo Google, para lidar com a autenticação de usuários, armazenamento e sincronização de mensagens em tempo real, além de compartilhamento de fotos. Além disso,  GetX ajuda a desenvolver um aplicativo fluido, estruturado e de fácil manutenção. Juntas, essas tecnologias proporcionam aos usuários uma experiência excepcional de chat em tempo real."
           imageSrc={foto2}
           repoLink="https://github.com/Matheus-hora48/flutter-chat"
+          imagens={projeto2}
         />
         <ProjectSection
           title="Previsão do tempo com api externa"
@@ -171,6 +245,7 @@ export default function Home() {
           O aplicativo utiliza a localização do dispositivo para exibir a previsão do tempo específica da região em que o usuário se encontra. Isso é possível graças à integração com a API de previsão do tempo, uma fonte confiável de informações climáticas."
           imageSrc={foto3}
           repoLink="https://github.com/Matheus-hora48/Weather-App"
+          imagens={projeto3}
         />
         <ProjectSection
           title="To do com GetX e Sqflite (dark mode)"
@@ -178,6 +253,7 @@ export default function Home() {
           description="O aplicativo To-Do com lembretes personalizados é uma ferramenta eficiente e versátil para organizar tarefas diárias, semanais e mensais. Ele oferece uma experiência intuitiva para gerenciar atividades diárias, permitindo salvar tarefas e configurar lembretes personalizados. Os lembretes podem ser definidos para diferentes frequências, garantindo que tarefas importantes nunca sejam esquecidas. "
           imageSrc={foto4}
           repoLink="https://github.com/Matheus-hora48/Flutter-To-Do-App"
+          imagens={projeto4}
         />
       </div>
       <div id="contact">
