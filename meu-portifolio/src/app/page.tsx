@@ -224,6 +224,7 @@ export default function Home() {
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
           imageSrc={foto1}
           repoLink="https://github.com/Matheus-hora48/loja-flutter"
+          imagens={projeto1}
         />
         <ProjectSection
           align="none"
@@ -231,6 +232,7 @@ export default function Home() {
           description="O projeto utiliza o Firebase, uma plataforma fornecida pelo Google, para lidar com a autenticação de usuários, armazenamento e sincronização de mensagens em tempo real, além de compartilhamento de fotos. Além disso,  GetX ajuda a desenvolver um aplicativo fluido, estruturado e de fácil manutenção. Juntas, essas tecnologias proporcionam aos usuários uma experiência excepcional de chat em tempo real."
           imageSrc={foto2}
           repoLink="https://github.com/Matheus-hora48/flutter-chat"
+          imagens={projeto2}
         />
         <ProjectSection
           title="Previsão do tempo com api externa"
@@ -239,6 +241,7 @@ export default function Home() {
           O aplicativo utiliza a localização do dispositivo para exibir a previsão do tempo específica da região em que o usuário se encontra. Isso é possível graças à integração com a API de previsão do tempo, uma fonte confiável de informações climáticas."
           imageSrc={foto3}
           repoLink="https://github.com/Matheus-hora48/Weather-App"
+          imagens={projeto3}
         />
         <ProjectSection
           title="To do com GetX e Sqflite (dark mode)"
@@ -246,6 +249,7 @@ export default function Home() {
           description="O aplicativo To-Do com lembretes personalizados é uma ferramenta eficiente e versátil para organizar tarefas diárias, semanais e mensais. Ele oferece uma experiência intuitiva para gerenciar atividades diárias, permitindo salvar tarefas e configurar lembretes personalizados. Os lembretes podem ser definidos para diferentes frequências, garantindo que tarefas importantes nunca sejam esquecidas. "
           imageSrc={foto4}
           repoLink="https://github.com/Matheus-hora48/Flutter-To-Do-App"
+          imagens={projeto4}
         />
       </div>
       <div id="contact">

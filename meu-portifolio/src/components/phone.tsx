@@ -10,15 +10,18 @@ import foto3 from "../../public/projeto1/13.png";
 import foto4 from "../../public/projeto1/14.png";
 import Image from "next/image";
 
-export default function Phone() {
-  const Imagens = [foto1, foto2, foto3, foto4];
+export default function Phone({ renderImagens }: any) {
   const [indiceAtual, setIndiceAtual] = useState<number>(0);
   const handlePreviousClick = () => {
-    setIndiceAtual(indiceAtual === 0 ? Imagens.length - 1 : indiceAtual - 1);
+    setIndiceAtual(
+      indiceAtual === 0 ? renderImagens.length - 1 : indiceAtual - 1
+    );
   };
 
   const handleNextClick = () => {
-    setIndiceAtual(indiceAtual === Imagens.length - 1 ? 0 : indiceAtual + 1);
+    setIndiceAtual(
+      indiceAtual === renderImagens.length - 1 ? 0 : indiceAtual + 1
+    );
   };
 
   return (
@@ -26,7 +29,7 @@ export default function Phone() {
       <div className={styles.images}>
         <Image
           className={styles.screen_img}
-          src={Imagens[indiceAtual]}
+          src={renderImagens[indiceAtual]}
           alt="Slide 1"
         />
         <div className={styles.seta}>

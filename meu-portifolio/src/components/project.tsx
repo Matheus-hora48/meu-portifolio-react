@@ -10,7 +10,7 @@ interface ProjectSectionProps {
   align: string;
   imageSrc: StaticImageData;
   repoLink: string;
-  imagens?: StaticImageData;
+  imagens?: StaticImageData[];
 }
 
 function ProjectSection({
@@ -53,7 +53,7 @@ function ProjectSection({
             <div className={styles.modal}>
               <div className={styles.modal__content}>
                 <h2 className={styles.modal__title}>{title}</h2>
-                <Phone />
+                <Phone renderImagens={imagens} />
                 <p className={styles.modal__description}>
                   Deseja ir para o repositório?
                 </p>
