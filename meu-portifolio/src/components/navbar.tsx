@@ -17,7 +17,7 @@ const Navbar = () => {
           <Link href="#project">
             <span>Projetos</span>
           </Link>
-          <Link href="#contact" className={styles.navbar_button}>
+          <Link href="#contact">
             <span>Contato</span>
           </Link>
         </div>

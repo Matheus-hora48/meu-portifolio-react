@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
+  margin: 25px 0;
   width: 100%;
   max-width: var(--max-width);
   background-color: #4a4458;
   border-radius: 12px;  
   align-items: center;
   height: auto;
-  padding: 1rem;
+  padding: 1.2rem;
   margin-bottom: 20px;
 }
 .container{
@@ -62,7 +62,6 @@
 
 .project_section__right {
   flex: 1;
-  margin-left: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,17 +72,14 @@
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 1rem;
-  padding-right: 20px;
   text-align: center;
 }
 
 .project_section__description {
   font-size: 13px;
-  font-weight: 500;
-  line-height: 1.2;
-  text-align: justify;
+  font-weight: 400;
+  text-align: center;
   max-width: 280px;
-  padding-right: 20px;
   margin-bottom: 1rem;
 }
 
