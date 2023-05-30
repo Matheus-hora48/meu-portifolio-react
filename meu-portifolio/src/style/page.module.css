@@ -71,6 +71,7 @@
   }
 
   .project{
+    font-weight: 400;
     margin-top: 20px;
     font-size: 20px;
   }
@@ -143,7 +144,7 @@
 
 .navbar__left h1 {
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 600;
   margin: 0;
   cursor: pointer;
 }
@@ -156,7 +157,7 @@
 .navbar__right span {
   text-decoration: none;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 600;
   transition: color 0.2s ease;
   margin-left: 10px;
   margin-right: 10px;
