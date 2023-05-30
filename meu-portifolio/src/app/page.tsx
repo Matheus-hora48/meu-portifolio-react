@@ -25,19 +25,17 @@ import projeto017 from "../../public/projeto1/17.png";
 import projeto018 from "../../public/projeto1/18.png";
 import projeto019 from "../../public/projeto1/19.png";
 
-import projeto021 from "../../public/projeto2/1.png";
-import projeto022 from "../../public/projeto2/2.png";
-import projeto023 from "../../public/projeto2/3.png";
-import projeto024 from "../../public/projeto2/4.png";
-import projeto025 from "../../public/projeto2/5.png";
-import projeto026 from "../../public/projeto2/6.png";
-import projeto027 from "../../public/projeto2/7.png";
-import projeto028 from "../../public/projeto2/8.png";
-import projeto029 from "../../public/projeto2/9.png";
-import projeto0210 from "../../public/projeto2/10.png";
+import projeto021 from "../../public/projeto2/3.png";
+import projeto022 from "../../public/projeto2/4.png";
+import projeto023 from "../../public/projeto2/5.png";
+import projeto024 from "../../public/projeto2/6.png";
+import projeto025 from "../../public/projeto2/7.png";
+import projeto026 from "../../public/projeto2/8.png";
+import projeto027 from "../../public/projeto2/9.png";
+import projeto028 from "../../public/projeto2/10.png";
 
 import projeto031 from "../../public/projeto3/1.jpg";
-import projeto032 from "../../public/projeto4/12.jpg";
+import projeto032 from "../../public/projeto3/2.jpg";
 
 import projeto041 from "../../public/projeto4/20.png";
 import projeto042 from "../../public/projeto4/21.png";
@@ -76,8 +74,6 @@ export default function Home() {
     projeto026,
     projeto027,
     projeto028,
-    projeto029,
-    projeto0210,
   ];
 
   const projeto3 = [projeto031, projeto032];
