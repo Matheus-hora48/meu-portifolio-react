@@ -10,11 +10,6 @@ import emailSvg from "../../public/email.svg";
 import phoneSvg from "../../public/phone.svg";
 import photoPng from "../../public/photo.png";
 import myphotoPng from "../../public/myphoto.png";
-import foto1 from "../../public/13.png";
-import foto2 from "../../public/7.png";
-import foto3 from "../../public/image1.jpg";
-import foto4 from "../../public/9.png";
-
 import projeto011 from "../../public/projeto1/11.png";
 import projeto012 from "../../public/projeto1/12.png";
 import projeto013 from "../../public/projeto1/13.png";
@@ -201,7 +196,7 @@ export default function Home() {
           align="center"
           title="E-commerce com GetX e API"
           description="Desenvolvi um aplicativo completo em Flutter que utiliza uma API para coletar dados externos e exibi-los na interface do usuário. Para permitir a comunicação eficiente com a API e executar operações essenciais, utilizei métodos HTTP padrão, mantendo as informações exibidas sempre atualizadas."
-          imageSrc={foto1}
+          imageSrc={projeto013}
           repoLink="https://github.com/Matheus-hora48/loja-flutter"
           imagens={projeto1}
         />
@@ -209,7 +204,7 @@ export default function Home() {
           align="none"
           title="Chat realtime com GetX e faribase"
           description="O projeto utiliza o Firebase, uma plataforma fornecida pelo Google, para lidar com a autenticação de usuários, armazenamento e sincronização de mensagens em tempo real, além de compartilhamento de fotos. Além disso,  GetX ajuda a desenvolver um aplicativo fluido, estruturado e de fácil manutenção. Juntas, essas tecnologias proporcionam aos usuários uma experiência excepcional de chat em tempo real."
-          imageSrc={foto2}
+          imageSrc={projeto028}
           repoLink="https://github.com/Matheus-hora48/flutter-chat"
           imagens={projeto2}
         />
@@ -218,7 +213,7 @@ export default function Home() {
           align="center"
           description="Esse app fornece informações sobre o clima em diferentes lugares e utiliza uma API externa para obter esses dados precisos.
           O aplicativo utiliza a localização do dispositivo para exibir a previsão do tempo específica da região em que o usuário se encontra. Isso é possível graças à integração com a API de previsão do tempo, uma fonte confiável de informações climáticas."
-          imageSrc={foto3}
+          imageSrc={projeto031}
           repoLink="https://github.com/Matheus-hora48/Weather-App"
           imagens={projeto3}
         />
@@ -226,7 +221,7 @@ export default function Home() {
           title="To do com GetX e Sqflite (dark mode)"
           align="none"
           description="O aplicativo To-Do com lembretes personalizados é uma ferramenta eficiente e versátil para organizar tarefas diárias, semanais e mensais. Ele oferece uma experiência intuitiva para gerenciar atividades diárias, permitindo salvar tarefas e configurar lembretes personalizados. Os lembretes podem ser definidos para diferentes frequências, garantindo que tarefas importantes nunca sejam esquecidas. "
-          imageSrc={foto4}
+          imageSrc={projeto045}
           repoLink="https://github.com/Matheus-hora48/Flutter-To-Do-App"
           imagens={projeto4}
         />
