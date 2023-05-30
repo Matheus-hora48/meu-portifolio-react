@@ -138,20 +138,19 @@ export default function Home() {
           </div>
           <div className={about.contact} style={{ fontWeight: "300" }}>
             <p>
-              E aí, beleza? Sou um desenvolvedor Flutter super capacitado e
-              motivado, com um amor insaciável por tecnologia e soluções
-              inovadoras. Com uma habilidade de dar inveja em Dart e Flutter,
-              estou pronto para liderar projetos desafiadores e trabalhar com
-              equipes super bem preparadas. Além disso, tenho uma base sólida em
-              programação, design de aplicativos móveis e experiência do
-              usuário, o que me ajuda a me destacar como um Engenheiro de
-              Software de alto nível.
+            E aí, beleza? Sou um desenvolvedor Flutter super capacitado 
+            e motivado, com um amor insaciável por tecnologia e soluções inovadoras. 
+            Com uma habilidade de dar inveja em Dart e Flutter, estou pronto para 
+            liderar projetos desafiadores e trabalhar com equipes super bem preparadas.
+            Além disso, tenho uma base sólida em programação, design de aplicativos 
+            móveis e experiência do usuário, o que me ajuda a me destacar como 
+            um engenheiro de software de alto nível.
             </p>
             <p>
-              Estou em busca de novas oportunidades para crescer e aprimorar
-              minhas habilidades em um ambiente inovador e colaborativo. Então,
-              se você está procurando um profissional que ama desafios e é
-              apaixonado por tecnologia, você acaba de encontrar!
+            Estou em busca de novas oportunidades para crescer e aprimorar minhas
+            habilidades em um ambiente inovador e colaborativo. Então, se você está 
+            procurando um profissional que ama desafios e é apaixonado por tecnologia, 
+            você acaba de encontrar! 
             </p>
             <div
               style={{

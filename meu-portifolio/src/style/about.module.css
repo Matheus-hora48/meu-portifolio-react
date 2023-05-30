@@ -102,12 +102,10 @@
 
 .about .links {
   display: flex;
-  border: 1px solid red;
   align-items: center;
 }
 
 .about .links a {
-  border: 1px solid red;
   margin-right: 10px;
 }
 
@@ -124,7 +122,6 @@
   }
 
   .about{
-    margin-top: 200px;
     font-size: 1.5rem;
     margin-bottom: 40px;
   }

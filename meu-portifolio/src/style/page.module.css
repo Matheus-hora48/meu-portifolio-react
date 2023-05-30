@@ -139,6 +139,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  height: 25px;
 }
 
 .navbar__left h1 {
@@ -359,7 +360,22 @@
 }
 
 /* Mobile */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
+  .heading1{
+    padding: 0 20px;
+  }
+  .heading2{
+    padding: 0 20px;
+  }
+  .heading3{
+    padding: 0 20px;
+  }
+  .container{
+    min-height: calc(85vh - 25px);
+    align-items: center;
+    justify-content: center;
+  }
+
   .navbar__left{
     display: none;
   }
@@ -466,6 +482,9 @@
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
+  }
+  .container{
+    min-height: calc(90vh - 25px);
   }
 }
 
