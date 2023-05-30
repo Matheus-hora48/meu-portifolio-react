@@ -130,37 +130,16 @@ export default function Home() {
               className={about.image}
             />
           </div>
-          <div
-            className={about.links}
-            style={{
-              width: "100%",
-              justifyContent: "space-between",
-              alignItems: "center",
-              marginRight: "10px",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "flex-start",
-                alignItems: "center",
-              }}
+          <div className={about.links}>
+            <a href="https://github.com/Matheus-hora48" target="_blank">
+              <Image alt="GitHub" src={gitSvg} width={40} height={40} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/devmatheushora/"
+              target="_blank"
             >
-              <a href="https://github.com/Matheus-hora48" target="_blank">
-                <Image alt="GitHub" src={gitSvg} width={40} height={40} />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/devmatheushora/"
-                target="_blank"
-              >
-                <Image
-                  alt="LinkedIn"
-                  src={linkedinSvg}
-                  width={40}
-                  height={40}
-                />
-              </a>
-            </div>
+              <Image alt="LinkedIn" src={linkedinSvg} width={40} height={40} />
+            </a>
           </div>
           <div className={about.contact} style={{ fontWeight: "300" }}>
             <p>

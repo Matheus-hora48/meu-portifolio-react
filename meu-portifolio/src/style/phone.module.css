@@ -37,17 +37,29 @@
 }
 
 .arrow_left{
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
   margin: 10px;
+  border-radius: 50%;
+  padding: 6px;
+  background-color: #4a4458;
+  transition: 0.2s;
 }
 
 .arrow_right{
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
   margin: 10px;
+  border-radius: 50%;
+  padding: 6px;
+  background-color: #4a4458;
+  transition: 0.2s;
+}
+
+.arrow_right:hover, .arrow_left:hover{
+  background-color: #302c3a; 
 }
 
 .images{
