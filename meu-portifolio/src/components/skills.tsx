@@ -13,7 +13,7 @@ import cssIcon from "../../public/tech/css.svg";
 import pgIcon from "../../public/tech/pg.svg";
 import mysqlIcon from "../../public/tech/mysql.svg";
 import mariaIcon from "../../public/tech/mariadb.svg";
-import faribaseIcon from "../../public/tech/firebase.svg";
+import firebaseIcon from "../../public/tech/firebase.svg";
 import gitIcon from "../../public/tech/git.svg";
 
 function SkillsSection() {
@@ -33,7 +33,7 @@ function SkillsSection() {
         <Image src={pgIcon} width={50} height={50} alt="Postgress" />
         <Image src={mysqlIcon} width={50} height={50} alt="Mysql" />
         <Image src={mariaIcon} width={50} height={50} alt="MariaDB" />
-        <Image src={faribaseIcon} width={50} height={50} alt="Faribase" />
+        <Image src={firebaseIcon} width={50} height={50} alt="Firebase" />
         <Image src={gitIcon} width={50} height={50} alt="Git" />
       </div>
     </div>

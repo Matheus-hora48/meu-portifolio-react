@@ -201,7 +201,7 @@ export default function Home() {
         />
         <ProjectSection
           align="none"
-          title="Chat realtime com GetX e faribase"
+          title="Chat realtime com GetX e firebase"
           description="O projeto utiliza o Firebase, uma plataforma fornecida pelo Google, para lidar com a autenticação de usuários, armazenamento e sincronização de mensagens em tempo real, além de compartilhamento de fotos. Além disso,  GetX ajuda a desenvolver um aplicativo fluido, estruturado e de fácil manutenção. Juntas, essas tecnologias proporcionam aos usuários uma experiência excepcional de chat em tempo real."
           imageSrc={projeto028}
           repoLink="https://github.com/Matheus-hora48/flutter-chat"
