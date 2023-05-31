@@ -138,19 +138,20 @@ export default function Home() {
           </div>
           <div className={about.contact} style={{ fontWeight: "300" }}>
             <p>
-            E aí, beleza? Sou um desenvolvedor Flutter super capacitado 
-            e motivado, com um amor insaciável por tecnologia e soluções inovadoras. 
-            Com uma habilidade de dar inveja em Dart e Flutter, estou pronto para 
-            liderar projetos desafiadores e trabalhar com equipes super bem preparadas.
-            Além disso, tenho uma base sólida em programação, design de aplicativos 
-            móveis e experiência do usuário, o que me ajuda a me destacar como 
-            um engenheiro de software de alto nível.
+              E aí, beleza? Sou um desenvolvedor Flutter super capacitado e
+              motivado, com um amor insaciável por tecnologia e soluções
+              inovadoras. Com uma habilidade de dar inveja em Dart e Flutter,
+              estou pronto para liderar projetos desafiadores e trabalhar com
+              equipes super bem preparadas. Além disso, tenho uma base sólida em
+              programação, design de aplicativos móveis e experiência do
+              usuário, o que me ajuda a me destacar como um engenheiro de
+              software de alto nível.
             </p>
             <p>
-            Estou em busca de novas oportunidades para crescer e aprimorar minhas
-            habilidades em um ambiente inovador e colaborativo. Então, se você está 
-            procurando um profissional que ama desafios e é apaixonado por tecnologia, 
-            você acaba de encontrar! 
+              Estou em busca de novas oportunidades para crescer e aprimorar
+              minhas habilidades em um ambiente inovador e colaborativo. Então,
+              se você está procurando um profissional que ama desafios e é
+              apaixonado por tecnologia, você acaba de encontrar!
             </p>
             <div
               style={{
@@ -208,7 +209,7 @@ export default function Home() {
           imagens={projeto2}
         />
         <ProjectSection
-          title="Previsão do tempo com api externa"
+          title="Previsão do tempo com API externa"
           align="center"
           description="Esse app fornece informações sobre o clima em diferentes lugares e utiliza uma API externa para obter esses dados precisos.
           O aplicativo utiliza a localização do dispositivo para exibir a previsão do tempo específica da região em que o usuário se encontra. Isso é possível graças à integração com a API de previsão do tempo, uma fonte confiável de informações climáticas."
@@ -217,7 +218,7 @@ export default function Home() {
           imagens={projeto3}
         />
         <ProjectSection
-          title="To do com GetX e Sqflite (dark mode)"
+          title="To-Do com GetX e SQLite (dark mode)"
           align="none"
           description="O aplicativo To-Do com lembretes personalizados é uma ferramenta eficiente e versátil para organizar tarefas diárias, semanais e mensais. Ele oferece uma experiência intuitiva para gerenciar atividades diárias, permitindo salvar tarefas e configurar lembretes personalizados. Os lembretes podem ser definidos para diferentes frequências, garantindo que tarefas importantes nunca sejam esquecidas. "
           imageSrc={projeto045}
