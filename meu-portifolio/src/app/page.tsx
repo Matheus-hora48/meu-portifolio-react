@@ -29,17 +29,29 @@ import projeto026 from "../../public/projeto2/8.png";
 import projeto027 from "../../public/projeto2/9.png";
 import projeto028 from "../../public/projeto2/10.png";
 
-import projeto031 from "../../public/projeto3/1.jpg";
-import projeto032 from "../../public/projeto3/2.jpg";
+import projeto031 from "../../public/projeto3/28.png";
+import projeto032 from "../../public/projeto3/29.png";
+import projeto033 from "../../public/projeto3/30.png";
+import projeto034 from "../../public/projeto3/31.png";
+import projeto035 from "../../public/projeto3/32.png";
+import projeto036 from "../../public/projeto3/33.png";
+import projeto037 from "../../public/projeto3/34.png";
+import projeto038 from "../../public/projeto3/35.png";
+import projeto039 from "../../public/projeto3/36.png";
+import projeto0310 from "../../public/projeto3/37.png";
+import projeto0311 from "../../public/projeto3/38.png";
+import projeto0312 from "../../public/projeto3/39.png";
 
-import projeto041 from "../../public/projeto4/20.png";
-import projeto042 from "../../public/projeto4/21.png";
-import projeto043 from "../../public/projeto4/22.png";
-import projeto044 from "../../public/projeto4/23.png";
-import projeto045 from "../../public/projeto4/24.png";
-import projeto046 from "../../public/projeto4/25.png";
-import projeto047 from "../../public/projeto4/26.png";
-import projeto048 from "../../public/projeto4/27.png";
+import projeto041 from "../../public/projeto4/39.png";
+import projeto042 from "../../public/projeto4/40.png";
+import projeto043 from "../../public/projeto4/41.png";
+import projeto044 from "../../public/projeto4/42.png";
+import projeto045 from "../../public/projeto4/43.png";
+import projeto046 from "../../public/projeto4/44.png";
+import projeto047 from "../../public/projeto4/45.png";
+import projeto048 from "../../public/projeto4/46.png";
+import projeto049 from "../../public/projeto4/47.png";
+import projeto0410 from "../../public/projeto4/48.png";
 
 import ButtonGroup from "@/components/button";
 import ProjectSection from "@/components/project";
@@ -71,7 +83,20 @@ export default function Home() {
     projeto028,
   ];
 
-  const projeto3 = [projeto031, projeto032];
+  const projeto3 = [
+    projeto031,
+    projeto032,
+    projeto033,
+    projeto034,
+    projeto035,
+    projeto036,
+    projeto037,
+    projeto038,
+    projeto039,
+    projeto0310,
+    projeto0311,
+    projeto0312,
+  ];
 
   const projeto4 = [
     projeto041,
@@ -82,6 +107,8 @@ export default function Home() {
     projeto046,
     projeto047,
     projeto048,
+    projeto049,
+    projeto0410,
   ];
 
   return (
@@ -209,20 +236,19 @@ export default function Home() {
           imagens={projeto2}
         />
         <ProjectSection
-          title="Previsão do tempo com API externa"
+          title="Gerenciador de ficha de treino (Em desenvolvimento) com Mox/Modular"
           align="center"
-          description="Esse app fornece informações sobre o clima em diferentes lugares e utiliza uma API externa para obter esses dados precisos.
-          O aplicativo utiliza a localização do dispositivo para exibir a previsão do tempo específica da região em que o usuário se encontra. Isso é possível graças à integração com a API de previsão do tempo, uma fonte confiável de informações climáticas."
+          description="Neste aplicativo, você poderá cadastrar sua ficha de treino e monitorar seus gastos calóricos e consumo de água de acordo com suas atividades."
           imageSrc={projeto031}
-          repoLink="https://github.com/Matheus-hora48/Weather-App"
+          repoLink="/"
           imagens={projeto3}
         />
         <ProjectSection
-          title="To-Do com GetX e SQLite (dark mode)"
+          title="Gerenciador de horários em barbearia com riverpod"
           align="none"
-          description="O aplicativo To-Do com lembretes personalizados é uma ferramenta eficiente e versátil para organizar tarefas diárias, semanais e mensais. Ele oferece uma experiência intuitiva para gerenciar atividades diárias, permitindo salvar tarefas e configurar lembretes personalizados. Os lembretes podem ser definidos para diferentes frequências, garantindo que tarefas importantes nunca sejam esquecidas. "
-          imageSrc={projeto045}
-          repoLink="https://github.com/Matheus-hora48/Flutter-To-Do-App"
+          description="Neste aplicativo, você poderá cadastrar sua ficha de treino e monitorar seus gastos calóricos e consumo de água de acordo com suas atividades."
+          imageSrc={projeto044}
+          repoLink="https://github.com/Matheus-hora48/barbershop"
           imagens={projeto4}
         />
       </div>
